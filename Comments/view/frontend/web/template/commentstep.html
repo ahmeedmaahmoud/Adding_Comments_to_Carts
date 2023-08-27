@@ -1,0 +1,18 @@
+<li id="comments_notes" data-bind="fadeVisible: isVisible">
+    <div class="step-title" data-bind="i18n: 'Comments/Notes'" data-role="title"></div>
+    <div id="checkout-step-title" class="step-content" data-role="content">
+        <form data-bind="submit: navigateToNextStep" novalidate="novalidate">
+            <div>
+                <label for="user_comments">Add your Comments/Notes:</label>
+                <textarea id="user_comments" name="user_comments" rows="4" cols="50" data-bind="value: userComment"></textarea>
+            </div>
+            <div class="actions-toolbar">
+                <div class="primary">
+                    <button data-role="opc-continue" type="submit" class="button action continue primary">
+                        <span><!-- ko i18n: 'Next'--><!-- /ko --></span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</li>

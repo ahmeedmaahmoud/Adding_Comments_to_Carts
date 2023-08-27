@@ -1,0 +1,17 @@
+{
+    "sales_order_grid": {
+        "column": {
+            "comment": true
+        }
+    },
+    "sales_order": {
+        "column": {
+            "comment": true
+        }
+    },
+    "quote": {
+        "column": {
+            "comment": true
+        }
+    }
+}

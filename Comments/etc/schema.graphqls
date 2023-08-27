@@ -1,0 +1,10 @@
+type Mutation {
+  addCommentToCartOrder(cartId: String!, comment: String!): AddCommentToCartOrderOutput @resolver(class: "Myvendor\\Comments\\Model\\Resolver\\AddCommentToCartOrder")
+}
+
+type AddCommentToCartOrderOutput {
+  success: Boolean!
+  message: String
+}
+
+
